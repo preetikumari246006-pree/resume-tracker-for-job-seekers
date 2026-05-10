@@ -1,112 +1,56 @@
 # 📄 Resume Tracker
 
-> A CLI tool to efficiently manage, customize, and track resumes for job applications.
+> A lightweight CLI tool to create, manage, and track multiple resume versions for job applications efficiently.
 
 ---
 
-## 📌 Overview  
-**Resume Tracker** is a command-line interface (CLI) application designed to help job seekers organize their resumes and job applications in a structured and efficient manner.  
+## 📌 Overview
 
-It enables users to maintain a base resume profile, create multiple tailored versions for different roles, and keep track of application details — all from a simple terminal interface.
+**Resume Tracker** is a command-line interface (CLI) application designed to help job seekers organize their resumes and job applications in a structured and efficient way.
 
-This project demonstrates practical implementation of **Python programming**, **data handling**, and **CLI-based system design**, focused on solving real-world career management challenges.
+It allows users to maintain a base resume profile, generate multiple tailored versions for different roles, and track application history — all from the terminal.
+
+This project demonstrates practical use of **Python programming**, **file-based data management**, and **CLI system design**, focused on solving real-world career organization challenges.
 
 ---
 
-## 🎯 Key Features  
+## 🎯 Key Features
 
 - 👤 **Create Base Resume Profile**  
-  Store essential personal and professional details such as name, email, contact number, education, and skills.
+  Store essential details such as name, email, contact number, education, and skills.
 
-- 📝 **Add Resume Versions**  
-  Create customized resume versions tailored for specific job roles and companies.
+- 📝 **Manage Resume Versions**  
+  Create multiple tailored resumes for different job roles and companies.
 
-- 📋 **List Resume Versions**  
-  View all saved resume versions with detailed information:
+- 📋 **View Resume History**  
+  Display all saved resume versions with:
   - Job title  
   - Company name  
   - Application date  
-  - Highlighted skills  
-  - Notes  
+  - Skills highlighted  
+  - Additional notes  
 
-- ✏️ **Update Resume Versions**  
-  Modify existing resume entries easily to keep them up to date.
+- ✏️ **Update Existing Entries**  
+  Modify and keep resume versions up to date with ease.
 
-- 🧭 **User-Friendly CLI Menu**  
-  Clean and intuitive command-line navigation for smooth user interaction.
+- 🧭 **Interactive CLI Menu**  
+  Simple and structured terminal-based navigation system.
 
-- 🚪 **Graceful Exit**  
-  Program exits with a professional closing message.
+- 🚪 **Clean Exit Handling**  
+  Graceful termination with user-friendly messages.
 
 ---
 
-## 🗂️ Repository Structure  
+## 🗂️ Project Structure
 
 ```text
 resume-tracker/
-├── data/                # Data storage (JSON, CSV, etc.)
+├── data/                 # Data storage (JSON / CSV files)
 │   └── .gitkeep
-├── src/                 # Source code
-│   ├── main.py          # CLI entry point
-│   ├── profile.py       # Resume profile logic
-│   └── version.py       # Resume version management
-├── tests/               # Unit tests (optional)
+├── src/                  # Source code
+│   ├── main.py           # CLI entry point
+│   ├── profile.py        # Resume profile logic
+│   └── version.py        # Resume version management
+├── tests/                # Unit tests (optional)
 │   └── .gitkeep
-└── README.md            # Project documentation
-```
-
----
-
-## ⚙️ Installation  
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/resume-tracker.git
-
-# Navigate into the project directory
-cd resume-tracker
-
-# Run the application
-python src/main.py
-```
-
----
-
-## ▶️ Usage  
-
-```bash
-python src/main.py
-```
-
-Follow the on-screen menu to:
-- Create your resume profile  
-- Add and manage resume versions  
-- Track job applications efficiently  
-
----
-
-## 🚀 Future Improvements  
-
-- 💾 Persistent storage using JSON or database  
-- 🔍 Search and filter resume versions  
-- 📊 Application tracking dashboard  
-- 🌐 Web-based interface  
-- 🤖 Smart resume suggestions based on job descriptions  
-
----
-
-## 🤝 Contributing  
-
-Contributions are welcome. Fork the repository and submit a pull request with clear improvements.
-
----
-
-## 📄 License  
-
-This project is licensed under the MIT License.
-
----
-
-## 💡 Project Goal  
-
-To provide a practical, lightweight tool that helps job seekers stay organized, improve their application strategy, and manage multiple opportunities effectively.
+└── README.md             # Project documentation
